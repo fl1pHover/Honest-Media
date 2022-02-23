@@ -1,0 +1,70 @@
+// @import '../vars/underline';
+// Color
+$main-gray: #43464f;
+$medium-grey: #cfcfcf;
+$light-grey:#ffffff;
+$white: #fff;
+// texts
+$small-text: 13px;
+$medium-text: 16px;
+$big-text: 120px;
+// headers
+$medium-header: 32px;
+$big-header:45px;
+@mixin mediumTxt($color, $size) {
+    font-size: $size;
+    color: $color;
+}
+
+@mixin bigTxt($color, $size) {
+    font-size: $size;
+    color: $color;
+}
+
+.small__text {
+    font-size: $small-text;
+    font-weight: normal;
+}
+
+.big__text {
+    font-size: $big-text;
+    font-weight: 900;
+}
+
+.big__header {
+    font-size: $big-header;
+    text-transform: uppercase;
+    font-family: 'Rubik', sans-serif;
+    font-weight: 600;
+    letter-spacing: 2px;
+    //     @include underline(5px, 10px);
+}
+
+.small__header {
+    font-size: $medium-text;
+    text-transform: uppercase;
+}
+
+.medium__text {
+    font-size: $medium-text;
+    font-weight: normal;
+}
+
+.medium__header {
+    font-size: $medium-header;
+    text-transform: uppercase;
+}
+
+.big__btn {
+    font-size: 22px;
+    padding: 20px 70px;
+    background: $white;
+    color: black;
+    text-transform: uppercase;
+    font-weight: bold;
+    margin-top: 150px;
+}
+
+.uppercase {
+    text-transform: uppercase !important;
+}
