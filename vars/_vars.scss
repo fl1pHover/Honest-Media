@@ -36,7 +36,7 @@ $big-header:45px;
     text-transform: uppercase;
     font-weight: 600;
     letter-spacing: 2px;
-    //     @include underline(5px, 10px);
+    font-family: 'Montserrat', sans-serif; //     @include underline(5px, 10px);
 }
 
 .small__header {
